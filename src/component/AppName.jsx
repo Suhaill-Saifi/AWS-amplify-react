@@ -3,7 +3,7 @@ import styles from "./AppName.module.css";
 function AppName() {
   return (
     <>
-      <h1 className={styles.todoheading}>ToDo APP</h1>
+      <h1 className={styles.todoheading}>ToDo APP Insphere</h1>
     </>
   );
 }
