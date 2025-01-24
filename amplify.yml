@@ -1,0 +1,19 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Installing dependencies..."
+        - npm install --cache .npm --prefer-offline || exit 1  # Ensure installation fails if there’s an error
+    build:
+      commands:
+        - echo "Building the application..."
+        - npm run build || exit 1  # Ensure the build fails properly if there's an error
+  artifacts:
+    baseDirectory: dist  # Vite outputs to 'dist' by default; ensure this matches your Vite config
+    files:
+      - '**/*'  # Include all files in the output directory
+  cache:
+    paths:
+      - .npm/**/*
+      - node_modules/**/*
