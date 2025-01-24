@@ -135,7 +135,7 @@ amplify publish
 ### AWS Amplify Dashboard
 ![Image](https://github.com/user-attachments/assets/e4cabdd5-6900-49ee-bdd7-adf7076284fd)
 ### To-Do Application Interface
-<img width="1047" alt="Image" src="https://github.com/user-attachments/assets/c3e5fac8-5c7b-4356-83c3-03a988781ad9" />  
+<img width="1034" alt="Image" src="https://github.com/user-attachments/assets/ca14aa0c-9a72-480d-bfc9-106c22f0ec40" />
 
 ---
 
