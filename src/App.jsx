@@ -2,13 +2,12 @@ import React from "react";
 import AddTodo from "./component/AddTodo";
 import Todoitems from "./component/Todoitems";
 import AppName from "./component/AppName";
-import ParagraphStreamer from "./components/ParagraphStreamer.jsx"
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
-
 import "./App.css";
 import WelcomeMessage from "./component/WelcomeMessage";
 import { TodoItemsContext } from "./store/todo-items-store";
+import ParagraphStreamer from "./component/ParagraphStreamer";
 
 function App() {
   const currenttodoitems = [];
@@ -40,7 +39,7 @@ function App() {
     >
       <center>
         <AppName />
-        <ParagraphStreamer></ParagraphStreamer>
+        <ParagraphStreamer />
         <AddTodo />
         <WelcomeMessage></WelcomeMessage>
         <Todoitems></Todoitems>
