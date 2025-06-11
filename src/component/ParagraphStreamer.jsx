@@ -8,7 +8,7 @@ function ParagraphStreamer() {
         setLoading(true);
         setParagraph('');
         try {
-            const res = await fetch('https://YOUR_API_ID.execute-api.YOUR_REGION.amazonaws.com/dev/hipster');
+            const res = await fetch('https://fcvoixch30.execute-api.us-east-1.amazonaws.com/dev/hipster');
             const data = await res.json();
             let i = 0;
             const interval = setInterval(() => {
