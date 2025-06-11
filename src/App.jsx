@@ -2,6 +2,7 @@ import React from "react";
 import AddTodo from "./component/AddTodo";
 import Todoitems from "./component/Todoitems";
 import AppName from "./component/AppName";
+import ParagraphStreamer from "./components/ParagraphStreamer.jsx"
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 
@@ -39,6 +40,7 @@ function App() {
     >
       <center>
         <AppName />
+        <ParagraphStreamer></ParagraphStreamer>
         <AddTodo />
         <WelcomeMessage></WelcomeMessage>
         <Todoitems></Todoitems>
